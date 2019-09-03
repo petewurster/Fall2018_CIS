@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>a smarter madlib</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+	<h1>This is NOT "smart" because the joke is witty...</h1>
+	<h4>The joke doesn't even make sense!  What IS kinda smart is how some entry data is manipulated to permit inane entries while attempting to preserve grammatical integrity</h4>
+	<div>
+	 	<input type="text" id="number1" placeholder="a number">
+		<input type="text" id="place" placeholder="place of business">
+		<input type="text" id="number3" placeholder="four digit number">
+		<input type="text" id="country" placeholder="a country">
+		<input type="text" id="thing" placeholder="thing">
+		<input type="text" id="animal" placeholder="animal">
+		<input type="text" id="movementVerb" placeholder="movement verb">
+		<input type="text" id="number2" placeholder="another number">
+
+		<hr>
+
+		<button type="button" onclick="valueSet(false)">submit input boxes</button>
+		<button type="button" onclick="valueSet(true)">get prompts</button>
+	</div>
+
+	<p id="out"></p>
+
+	<script src="./madlib.js"></script>
+</body>
+</html>

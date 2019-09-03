@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Conversion Tool</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<script src="conversion_funcs.js"></script>
+</head>
+
+<body>
+	<h1>Currency Conversion</h1>
+	<h4>*currencies converted using rate approximations
+	from Bloomberg.com last	sourced at approx 12:32 EST
+	on 12 Sept 2018</h4>
+
+	<hr>
+
+	<label for="from">From</label>
+		<select id="from" onchange="convert()">
+			<!-- filled via javascript -->
+		</select>
+	
+	<input type="search" id="cash">
+
+	<label for="to">To</label>
+		<select id="to" onchange="convert()">
+			<!-- filled via javascript -->
+		</select>
+
+	<button class="button" onclick="convert()">Convert!</button>
+
+	<p id="output">=</p>
+
+	<hr>
+
+</body>
+</html>

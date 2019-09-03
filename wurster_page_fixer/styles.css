@@ -1,0 +1,23 @@
+body {
+    font-family: sans-serif;
+    background-color: silver;
+    color: #000000;
+}
+
+.engage {
+  background-color: orange;
+  color: blue;
+}
+
+img {
+  background-color: green;
+}
+
+aside {
+  width: 50%;
+  background-color: black;
+  color: white;
+  border: 3px solid orange;
+  font-size: 150%;
+  padding: 10px;
+}

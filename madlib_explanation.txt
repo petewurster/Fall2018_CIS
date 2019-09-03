@@ -1,0 +1,9 @@
+I know that I over-complicated the assignment, so for those of you who are new to programming, here is a breakdown of what's going on:
+
+My prog is composed of 3 functions that I defined to do the task:
+
+valueSet() grabs the user data (either from input fields or prompts, as determined by what the user clicks on in the HTML page).
+
+valueCheck() takes certain variables and tests them to figure out how best to use them in the madlib (it makes sure that you can't have negatives, that smaller values are placed in spots that expect small values, likewise with large values, and it capitalizes some stuff)
+
+the last one is showStory() which iterates across my story array and concatenates the story into a single string value for output

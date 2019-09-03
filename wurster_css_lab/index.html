@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Page 1 of 3</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+
+<body>
+	<header>
+		<h1>Sample h1 heading (NOW WITH EVEN MORE CSS!!!)</h1>
+		<h2><a target="_blank" href="http://www.wikipedia.org/">Sample h2 link to wikipedia homepage</a></h2>
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="index.html">1st page</a></li>
+			<li><a href="wurster_css_lab2.html">2nd page</a></li>
+			<li><a href="wurster_css_lab3.html">3rd page</a></li>
+		</ul>
+	</nav>
+
+	<p> Lorem ipsum dolor sit amet, eget aliquam nulla libero tellus. Purus mus, tristique aliquam, maecenas platea nulla vulputate, sed nulla, rutrum gravida sodales felis pede. Massa vel eget metus non dapibus cras. Velit mattis per amet sed magna, hac vel, odio habitasse at nulla et, ridiculus donec eget praesent sit conubia, non massa ac quis lorem. Consequat venenatis egestas wisi rutrum in nec, nam dolor, magnam sed iaculis venenatis, congue fringilla porta, porttitor sed est aliquam tristique ante. Interdum elit fringilla aliquam phasellus eget. Dui aliquam nec orci, nulla penatibus rutrum quam, sit est nullam dui. Magna sed in sodales, vestibulum vel interdum.</p>
+
+	<p> Lorem ipsum dolor sit amet, eget aliquam nulla libero tellus. Purus mus, tristique aliquam, maecenas platea nulla vulputate, sed nulla, rutrum gravida sodales felis pede. Massa vel eget metus non dapibus cras. Velit mattis per amet sed magna, hac vel, odio habitasse at nulla et, ridiculus donec eget praesent sit conubia, non massa ac quis lorem. Consequat venenatis egestas wisi rutrum in nec, nam dolor, magnam sed iaculis venenatis, congue fringilla porta, porttitor sed est aliquam tristique ante. Interdum elit fringilla aliquam phasellus eget. Dui aliquam nec orci, nulla penatibus rutrum quam, sit est nullam dui. Magna sed in sodales, vestibulum vel interdum.</p>
+
+	<hr>
+	
+	<div>
+			<table id="trad">
+				<caption>traditionally constructed table</caption>
+				<thead>
+					<tr>
+						<th>headerA</th>	<th>headerB</th>	<th>headerC</th>	<th>headerD</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>data</td>	<td>data</td>	<td>data</td>	<td>data</td>
+					</tr>
+					<tr>
+						<td>data</td>	<td>data</td>	<td>data</td>	<td>data</td>
+					</tr>
+				</tbody>
+			</table>
+		<h3>table as a mock calendar (via loops)</h3>
+		<table class="autogen">
+			<script>
+				days={0:"Sun",1:"Mon",2:"Tue",3:"Wed",4:"Thu",5:"Fri",6:"Sat"};
+				for(x=0;x<6;x++){
+					
+					document.write("<tr>")
+						for(y=0;y<7;y++){
+							if(x==0){
+								document.write("<th>"+days[y]+"</th>");
+							}else{
+							document.write("<td>"+x+y+"</td>");
+							}
+						}
+					document.write("</tr>")
+				}
+			</script>
+		</table>
+	</div>
+	
+	<hr>
+
+	<div id="img_section">
+		<h3>Computer</h3>
+		<img src="./images/computer.jpeg" alt="picture of a desktop computer">
+	</div>
+
+
+</body>
+</html>

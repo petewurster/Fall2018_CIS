@@ -1,0 +1,36 @@
+body{
+	background-color:#8a8a8a;
+}
+
+input{
+	padding:8px 4px 4px 4px;
+	border:ridge 2px #770088;
+}
+
+button{
+	padding:8px;
+	border:inset 3px #000000;
+}
+
+.button:hover{
+	border:ridge 3px #61f600;
+}
+
+.button:active{
+	border:inset 3px #61f600;
+}
+
+#output{
+	width:140px;
+	margin-left:200px;
+	background:#ffffff;
+	padding:4px;
+	border:ridge 2px #770088;
+}
+
+label{
+	color:#61f600;
+}
+select{
+	font-size:18px;
+}

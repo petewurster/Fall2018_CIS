@@ -1,0 +1,30 @@
+nav{
+	background-color:#3faaaa;
+}
+nav li{
+	margin:20px;
+	display:inline;
+}
+#img_section{
+text-align:center;
+}
+.block{
+	display:inline-block;
+	margin:20px;
+	width:25%;
+}
+ol li{
+	width:60%;
+	background-color:#ee55c0;
+}
+ol li:nth-child(odd){
+	background-color:#44dd00;
+}
+aside{
+	width:200px;
+	float:right;
+	font-size:22px;
+}
+#trad{
+	float:right;
+}
